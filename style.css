@@ -208,6 +208,7 @@ li {
 }
 .footer-description{
     width: 80%;
+    margin-bottom: 30px;
 }
 .card-description{
     margin-left: 15px;
@@ -215,4 +216,8 @@ li {
 }
 nav  a:hover{
     color: #f94c30;
+}
+.socials{
+    width: 50px;
+    margin-right: 25px;
 }
