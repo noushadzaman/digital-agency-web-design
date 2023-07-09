@@ -1,22 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: gray;
     padding: 20px 0;
 }
-.menus{
+
+.menus {
     display: flex;
     gap: 20px;
     list-style: none;
 }
-.banner-container{
+
+.banner-container {
     height: 100vh;
-    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,24 +29,102 @@ nav{
     justify-content: center;
     text-align: center;
 }
-.primary{
-    color:#f94c30;
+
+.primary {
+    color: #f94c30;
 }
-.title{
+
+.title {
     font-size: 55px;
     font-weight: bold;
     color: white;
 }
-.description{
+
+.description {
     color: white;
-    padding: 10px;  
+    padding: 10px;
     width: 50%;
     margin: auto;
 }
-.btn{
-   padding:  12px 20px; 
-   border: none;
-   border-radius: 5px;
-   color: white;
-   background-color: #f94c30;
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #f94c30;
+}
+
+.btn-secondary {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #f94c30;
+    background-color: white;
+}
+
+.service-container {
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 70px;
+}
+
+.box {
+    padding: 50px;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 4px 8px black; */
+    margin: 15px 0 15px 15px;
+}
+
+.service-description {
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.all-boxes {
+    display: flex;
+}
+
+.profile-pic {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid #f94c30;
+    padding-right: 20px;
+}
+
+.left-side-container {
+    color: white;
+}
+
+li {
+    list-style: none;
 }
